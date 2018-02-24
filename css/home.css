@@ -1,15 +1,5 @@
-html, body{
-    width: 100%;
-    height: 100vh;
-    padding:0px;
-    margin:0px;
-    background-color:blue;
-}
 
 .bg-img {
-  position: relative;
-  width: 100%;
-  height: 100%;
   background: url("../images/lp_back.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -21,7 +11,6 @@ html, body{
 h1{
     color:white;
     font-family: 'Lobster', cursive;
-    margin-left:-25px;
     font-size: 88px;
 }
 h2,h3{
@@ -32,25 +21,51 @@ h2,h3{
     height:150px;
 }
 #nav_cabeza{
-    padding-top:55px;
+    position: relative;
+    top:55px;
     font-family: 'Anton', sans-serif;
     font-size: 18px;
 }
 p{
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
-@media only screen and (max-width: 975px){
+/* Responsive letters - header and nav bar */
+@media only screen and (max-width: 1170px){
+    h1{
+        font-size: 80px;
+    }
     .cabeza{
-        height: 100px !important;
+        height: 130px;
     }
     #nav_cabeza{
-        padding-top:20px;
+        top:43px;
     }
 }
+/* after here take all properties and let it flow normally */
+@media only screen and (max-width: 990px){
+    h1{
+        font-size: 70px;
+    }
+    .cabeza{
+        height: auto;
+    }
+    #nav_cabeza{
+        position:static;
+    }
+    #div_nav_bar{
+        height:auto;
+    }
+}
+@media only screen and (max-width: 750px){
+    h1{
+        font-size: 55px;
+    }
+}
+
 @media only screen and (max-width: 550px){
     h1{
-        font-size:65px;
+        font-size:35px;
     }
 }
