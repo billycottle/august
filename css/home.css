@@ -31,6 +31,25 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+
+.gt_title{
+    color:white;
+}
+.hotel{
+    color:white;
+}
+a.hotel:visited{
+    color:white;
+}
+.collapse{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-right:48px;
+}
+#footer{
+    height:277px;
+}
 /* Responsive letters - header and nav bar */
 @media only screen and (max-width: 1170px){
     h1{
@@ -41,18 +60,20 @@ p{
     }
     #nav_cabeza{
         top:43px;
+        font-size: 17px;
     }
 }
 /* after here take all properties and let it flow normally */
 @media only screen and (max-width: 990px){
     h1{
-        font-size: 70px;
+        font-size: 80px;
     }
     .cabeza{
         height: auto;
     }
     #nav_cabeza{
         position:static;
+        font-size: 17px;
     }
     #div_nav_bar{
         height:auto;
@@ -60,12 +81,26 @@ p{
 }
 @media only screen and (max-width: 750px){
     h1{
-        font-size: 55px;
+        font-size: 80px;
+    }
+    #nav_cabeza{
+        font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 550px){
     h1{
-        font-size:35px;
+        font-size: 65px;
+    }
+
+}
+@media only screen and (max-width: 410px){
+    h1{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 350px){
+    h1{
+        font-size: 48px;
     }
 }
