@@ -29,7 +29,6 @@ h2,h3{
 p{
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
 }
 
 .gt_title{
@@ -44,7 +43,6 @@ a.hotel:visited{
 .collapse{
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
     padding-right:48px;
 }
 #footer{
