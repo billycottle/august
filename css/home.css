@@ -4,7 +4,7 @@
   background-size: cover;
 }
 .gradient {
-    background-image:linear-gradient(to right, rgba(0,195,255,0.5), rgba(255,255,28,0.5));
+    background-image:linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,195,255,0.5), rgba(255,255,28,0.5));
     height: 100%;
 }
 
@@ -29,6 +29,7 @@ h2,h3{
 p{
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:16px;
 }
 
 .gt_title{
@@ -45,7 +46,7 @@ a.hotel:visited{
     font-family: 'Roboto', sans-serif;
     padding-right:48px;
 }
-#footer{
+.pie{
     height:277px;
 }
 /* Responsive letters - header and nav bar */
