@@ -25,9 +25,9 @@
             <div id ="div_nav_bar" class ="col-xs-12 col-sm-12 col-md-6 col-lg-6 cabeza">
                 <ul id ="nav_cabeza" class ="nav nav-pills list-inline">
                     <li><a href ="getting_there.html">Getting there</a></li>
-                    <li><a href ="#">Things to do</a></li>
-                    <li><a href ="#">MachuPicchu</a></li>
-                    <li><a href ="#">About Lima</a></li>
+                    <li><a href ="#" id ="tooltip1" data-toggle="tooltip" title="comming soon">Things to do</a></li>
+                    <li><a href ="#" id ="tooltip2" data-toggle="tooltip" title="comming soon">MachuPicchu</a></li>
+                    <li><a href ="#" id ="tooltip3" data-toggle="tooltip" title="comming soon">About Lima</a></li>
                 </ul>
             </div>
                 <!--description-->
@@ -60,5 +60,17 @@
 <!--Bootstrap JS & JQuery -->
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready( function(){
+        $('#tooltip1').tooltip();
+    });
+    $(document).ready( function(){
+        $('#tooltip2').tooltip();
+    });
+    $(document).ready( function(){
+        $('#tooltip3').tooltip();
+    });
+</script>
+
 </body>
 </html>
