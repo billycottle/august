@@ -30,6 +30,16 @@ p{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-size:16px;
+    padding-right:180px;
+}
+ul{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    list-style:none;
+}
+#hotels.a:visited{
+    color:white;
 }
 
 .gt_title{
@@ -38,16 +48,17 @@ p{
 .hotel{
     color:white;
 }
+.hotels{
+    color:white;
+}
 a.hotel:visited{
     color:white;
 }
-.collapse{
+a.hotels:visited{
     color:white;
-    font-family: 'Roboto', sans-serif;
-    padding-right:48px;
 }
 .pie{
-    height:277px;
+    height:30px;
 }
 /* Responsive letters - header and nav bar */
 @media only screen and (max-width: 1170px){
@@ -60,6 +71,9 @@ a.hotel:visited{
     #nav_cabeza{
         top:43px;
         font-size: 17px;
+    }
+    p{
+    padding-right:100px;
     }
 }
 /* after here take all properties and let it flow normally */
@@ -91,15 +105,24 @@ a.hotel:visited{
     h1{
         font-size: 65px;
     }
+    p{
+    padding-right:0px;
+    }
 
 }
 @media only screen and (max-width: 410px){
     h1{
         font-size: 55px;
     }
+    p{
+    padding-right:0px;
+    }
 }
 @media only screen and (max-width: 350px){
     h1{
         font-size: 48px;
+    }
+    p{
+    padding-right:0px;
     }
 }
